@@ -1,0 +1,15 @@
+import random
+A = random.randrange(-10,10)
+B = random.randrange(-10,10)
+C = random.randrange(-10,10)
+print("A = ", A)
+print("B = ", B)
+print("C = ", C)
+ab = (A == B)
+bc = (B == C)
+ac = (A == C)
+x = ab or bc or ac
+print("A равно B: ", ab)
+print("B равно C: ", bc)
+print("A равно C: ", ac)
+print("Есть хотя бы одна пара совпадающих: ", x)
